@@ -1,6 +1,6 @@
 # English Helper · 英文助手
 
-[English](README.en.md) · [下载安装包](dist/英文助手%20v1.1.shortcut) · [优化路线](ROADMAP.md) · [MIT 许可](LICENSE)
+[English](README.en.md) · [下载安装包](https://github.com/baichujiang/english-helper-shortcut/releases/latest) · [优化路线](ROADMAP.md) · [MIT 许可](LICENSE)
 
 保留现有键盘，在原 App 复制英文，点辅助触控“小白点”，检查语法或选择润色；预览并确认后，粘贴回原输入框。
 
@@ -20,8 +20,8 @@
 
 ## 安装
 
-1. 在 iPhone 下载 [英文助手 v1.1.shortcut](dist/英文助手%20v1.1.shortcut)。GitHub 文件页需要点下载按钮，获取实际的 `.shortcut` 文件。
-2. 在“文件”App 中打开文件，选择“添加快捷指令”。如果用 Chrome 下载，选择“打开方式 → 快捷指令”。也可将签名文件从 Mac 隔空投送到 iPhone 后安装。
+1. 在 iPhone 打开[发布页](https://github.com/baichujiang/english-helper-shortcut/releases/latest)，下载 `English-Helper-v1.1.zip`。在“文件”App 中轻点 ZIP 解压，得到 `英文助手 v1.1.shortcut`。ZIP 会保留正确的中文文件名。
+2. 打开解压得到的 `.shortcut` 文件，选择“添加快捷指令”。也可从仓库的 [dist](dist/英文助手%20v1.1.shortcut) 下载单个签名文件，或将文件从 Mac 隔空投送到 iPhone 后安装。
 3. 打开“设置 → 辅助功能 → 触控 → 辅助触控”，开启辅助触控。
 4. 在“轻点一下”中选择 **英文助手 v1.1**。安装新版后，请核对绑定的版本名称。
 

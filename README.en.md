@@ -1,6 +1,6 @@
 # English Helper
 
-[简体中文](README.md) · [Download v1.1](dist/英文助手%20v1.1.shortcut) · [Roadmap](ROADMAP.md) · [MIT](LICENSE)
+[简体中文](README.md) · [Download](https://github.com/baichujiang/english-helper-shortcut/releases/latest) · [Roadmap](ROADMAP.md) · [MIT](LICENSE)
 
 Proofread or polish English on iPhone while keeping your existing keyboard. Copy text in your current app, tap AssistiveTouch, preview the edit, confirm, and paste it into the original field.
 
@@ -8,8 +8,8 @@ Proofread or polish English on iPhone while keeping your existing keyboard. Copy
 
 ## Install and use
 
-1. Download the actual [signed `.shortcut` file](dist/英文助手%20v1.1.shortcut) from GitHub using the download button.
-2. Open it in Files and add the shortcut. In iPhone Chrome, use **Open in → Shortcuts** after downloading. AirDrop from a Mac is another installation route.
+1. On iPhone, download `English-Helper-v1.1.zip` from the [release page](https://github.com/baichujiang/english-helper-shortcut/releases/latest). Tap the ZIP in Files to extract `英文助手 v1.1.shortcut`; the ZIP preserves its Chinese filename.
+2. Open the extracted `.shortcut` file and add the shortcut. The individual [signed file](dist/英文助手%20v1.1.shortcut) is also available in the repository. AirDrop from a Mac is another installation route.
 3. In **Settings → Accessibility → Touch → AssistiveTouch**, enable AssistiveTouch and set **Single-Tap** to **英文助手 v1.1**.
 4. Copy English in your current app and tap AssistiveTouch.
 5. Choose **检查：只改错误** (minimal grammar, spelling, and punctuation fixes) or **润色：更自然** (optional natural wording).
