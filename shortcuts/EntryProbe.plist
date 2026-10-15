@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WFWorkflowName</key>
+	<string>英文助手·入口探针</string>
+	<key>WFWorkflowClientVersion</key>
+	<string>4033.0.3.5</string>
+	<key>WFWorkflowMinimumClientVersion</key>
+	<integer>900</integer>
+	<key>WFWorkflowMinimumClientVersionString</key>
+	<string>900</string>
+	<key>WFWorkflowIcon</key>
+	<dict>
+		<key>WFWorkflowIconStartColor</key>
+		<integer>463140863</integer>
+		<key>WFWorkflowIconGlyphNumber</key>
+		<integer>61592</integer>
+	</dict>
+	<key>WFWorkflowActions</key>
+	<array>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>离线入口验证。只显示一个系统弹窗，不读取剪贴板、不联网、不调用其他 App。请从辅助触控小白点运行，不要从快捷指令 App 运行。</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.alert</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFAlertActionTitle</key>
+				<string>英文助手：入口验证</string>
+				<key>WFAlertActionMessage</key>
+				<string>请检查弹窗后面是否仍是刚才的 App。
+
+关闭弹窗后，应该直接继续在原 App 操作。
+
+若出现快捷指令 App 主界面，或需要手动切回原 App，入口验证不通过。
+
+此探针完全离线，不执行语法检查。</string>
+				<key>WFAlertActionCancelButtonShown</key>
+				<false/>
+			</dict>
+		</dict>
+	</array>
+	<key>WFWorkflowTypes</key>
+	<array/>
+	<key>WFQuickActionSurfaces</key>
+	<array/>
+	<key>WFWorkflowInputContentItemClasses</key>
+	<array>
+		<string>WFStringContentItem</string>
+		<string>WFRichTextContentItem</string>
+	</array>
+	<key>WFWorkflowOutputContentItemClasses</key>
+	<array/>
+	<key>WFWorkflowHasOutputFallback</key>
+	<false/>
+	<key>WFWorkflowHasShortcutInputVariables</key>
+	<false/>
+	<key>WFWorkflowImportQuestions</key>
+	<array/>
+</dict>
+</plist>

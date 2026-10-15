@@ -1,0 +1,38 @@
+[
+  {
+    "name": "英文助手·入口探针",
+    "source": "shortcuts/EntryProbe.plist",
+    "file": "dist/英文助手·入口探针.shortcut",
+    "actions": 2,
+    "source_sha256": "81a75390ca26b073c3eb42dfab51ffe17c978177e7bfba7987098a492e7e29d6",
+    "file_sha256": "9d16badf86e488ed7e6ca03788ad85b3b0dd0256c09875e0fc1830564656d37d",
+    "status": "signature-and-content-verified-see-runtime-evidence"
+  },
+  {
+    "name": "英文助手·剪贴板探针",
+    "source": "shortcuts/ClipboardProbe.plist",
+    "file": "dist/英文助手·剪贴板探针.shortcut",
+    "actions": 11,
+    "source_sha256": "00d35ed366c4500ef945cf30c3e2b318a894e7c4704996da6fa35d7de4267404",
+    "file_sha256": "15d60be36e5ec59bf3450525106c70ccb85f3a886d914593fd4d4630b65fc6b2",
+    "status": "signature-and-content-verified-see-runtime-evidence"
+  },
+  {
+    "name": "英文助手·模型验证",
+    "source": "shortcuts/ModelProbe.plist",
+    "file": "dist/英文助手·模型验证.shortcut",
+    "actions": 3,
+    "source_sha256": "b235319c50869d286bffacdaf9436dab52b63a24fac3f4fd3b8c1f658d696300",
+    "file_sha256": "cd93de035c7060d1e6ea5ee9ce188f74ded896590ae416d38de868f84ae0d692",
+    "status": "signature-and-content-verified-see-runtime-evidence"
+  },
+  {
+    "name": "英文助手 v1.1",
+    "source": "shortcuts/EnglishHelper.plist",
+    "file": "dist/英文助手 v1.1.shortcut",
+    "actions": 47,
+    "source_sha256": "0d1d657096fbf1e8fb6faf360738d85e6c7cd44e35e552168361f7375cc05ac3",
+    "file_sha256": "c8071e8683cf9b6cc2c15c9cf68ad2a67e6016280ac5d7213e095e3d488051c7",
+    "status": "signature-and-content-verified-see-runtime-evidence"
+  }
+]

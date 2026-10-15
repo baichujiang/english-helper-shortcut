@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WFWorkflowName</key>
+	<string>英文助手·剪贴板探针</string>
+	<key>WFWorkflowClientVersion</key>
+	<string>4033.0.3.5</string>
+	<key>WFWorkflowMinimumClientVersion</key>
+	<integer>900</integer>
+	<key>WFWorkflowMinimumClientVersionString</key>
+	<string>900</string>
+	<key>WFWorkflowIcon</key>
+	<dict>
+		<key>WFWorkflowIconStartColor</key>
+		<integer>463140863</integer>
+		<key>WFWorkflowIconGlyphNumber</key>
+		<integer>61592</integer>
+	</dict>
+	<key>WFWorkflowActions</key>
+	<array>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>离线固定示例，只验证界面和剪贴板流程，尚未实现语法检查或润色。请先复制 She don't like coffee.，再从小白点启动。只有确认复制后才覆盖剪贴板。</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getclipboard</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>937045FC-CC75-556D-ACE7-AC9783E55508</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFMenuPrompt</key>
+				<string>英文助手 · 离线入口验证</string>
+				<key>WFMenuItems</key>
+				<array>
+					<string>检查入口（固定示例）</string>
+					<string>润色入口（固定示例）</string>
+				</array>
+				<key>WFControlFlowMode</key>
+				<integer>0</integer>
+				<key>GroupingIdentifier</key>
+				<string>8CC3B6F4-49D0-5D23-A352-B1BA7F5DAB65</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFMenuItemTitle</key>
+				<string>检查入口（固定示例）</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+				<key>GroupingIdentifier</key>
+				<string>8CC3B6F4-49D0-5D23-A352-B1BA7F5DAB65</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFTextActionText</key>
+				<string>She doesn't like coffee.</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFMenuItemTitle</key>
+				<string>润色入口（固定示例）</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+				<key>GroupingIdentifier</key>
+				<string>8CC3B6F4-49D0-5D23-A352-B1BA7F5DAB65</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFTextActionText</key>
+				<string>She doesn't like coffee.</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefrommenu</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFControlFlowMode</key>
+				<integer>2</integer>
+				<key>GroupingIdentifier</key>
+				<string>8CC3B6F4-49D0-5D23-A352-B1BA7F5DAB65</string>
+				<key>UUID</key>
+				<string>E7688D99-40A7-5D0B-B67D-D9BEB026E315</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.alert</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFAlertActionTitle</key>
+				<string>确认复制固定测试结果？</string>
+				<key>WFAlertActionMessage</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>string</key>
+						<string>刚才复制的内容：
+￼
+
+固定测试结果（与输入内容无关）：
+She doesn't like coffee.
+
+这里只验证流程，尚未接入校对功能。
+点“好”才会将固定测试结果写入剪贴板；点“取消”保留原剪贴板。</string>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{9, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>ActionOutput</string>
+								<key>OutputUUID</key>
+								<string>937045FC-CC75-556D-ACE7-AC9783E55508</string>
+								<key>OutputName</key>
+								<string>Clipboard</string>
+							</dict>
+						</dict>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+				<key>WFAlertActionCancelButtonShown</key>
+				<true/>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setclipboard</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>ActionOutput</string>
+						<key>OutputUUID</key>
+						<string>E7688D99-40A7-5D0B-B67D-D9BEB026E315</string>
+						<key>OutputName</key>
+						<string>Menu Result</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFLocalOnly</key>
+				<true/>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.alert</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFAlertActionTitle</key>
+				<string>固定测试结果已复制</string>
+				<key>WFAlertActionMessage</key>
+				<string>关闭弹窗后，应该直接回到刚才的 App。
+
+在原输入框选中测试句，再粘贴。
+
+预期：She doesn't like coffee.
+
+请确认过程中没有进入快捷指令 App 主界面。</string>
+				<key>WFAlertActionCancelButtonShown</key>
+				<false/>
+			</dict>
+		</dict>
+	</array>
+	<key>WFWorkflowTypes</key>
+	<array/>
+	<key>WFQuickActionSurfaces</key>
+	<array/>
+	<key>WFWorkflowInputContentItemClasses</key>
+	<array>
+		<string>WFStringContentItem</string>
+		<string>WFRichTextContentItem</string>
+	</array>
+	<key>WFWorkflowOutputContentItemClasses</key>
+	<array/>
+	<key>WFWorkflowHasOutputFallback</key>
+	<false/>
+	<key>WFWorkflowHasShortcutInputVariables</key>
+	<false/>
+	<key>WFWorkflowImportQuestions</key>
+	<array/>
+</dict>
+</plist>

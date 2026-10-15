@@ -1,0 +1,33 @@
+name: Bug report / 问题反馈
+description: Report a workflow, model, installation or compatibility issue.
+body:
+  - type: markdown
+    attributes:
+      value: Use synthetic text. Do not include real chats, credentials, device identifiers or private screenshots. / 请使用合成例句，删除私人内容。
+  - type: input
+    id: environment
+    attributes:
+      label: Device, iOS version and shortcut version / 环境
+      placeholder: iPhone 16 Pro Max, iOS 26.0.1, English Helper v1.1
+    validations:
+      required: true
+  - type: input
+    id: entry
+    attributes:
+      label: App and entry point / App 与启动入口
+      placeholder: Notes, AssistiveTouch Single-Tap / 备忘录，小白点单击
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps and synthetic input / 步骤与合成输入
+      description: Include the original text actually shown in the preview if relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result / 预期与实际结果
+    validations:
+      required: true
